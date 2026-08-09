@@ -2,7 +2,6 @@
 
 A customer churn analysis and risk-scoring pipeline built with Python, SQLite, and Power BI. The system processes customer behavioral data, predicts individual churn probabilities using a Random Forest classification model, stores scored output in a relational SQLite database, and presents actionable reporting in Power BI.
 
----
 
 - Technical Stack & Dependencies
 
