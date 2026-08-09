@@ -4,16 +4,16 @@ A customer churn analysis and risk-scoring pipeline built with Python, SQLite, a
 
 ---
 
-## Technical Stack & Dependencies
+- Technical Stack & Dependencies
 
-- **Programming:** Python 3.x (`pandas`, `numpy`, `scikit-learn`, `matplotlib`)
-- **Database:** SQLite
-- **Business Intelligence:** Power BI Desktop, DAX (`CALCULATE`, `DIVIDE`, `SUM`)
-- **Version Control:** Git
+ **Programming:** Python 3.x (`pandas`, `numpy`, `scikit-learn`, `matplotlib`)
+ **Database:** SQLite
+ **Business Intelligence:** Power BI Desktop, DAX (`CALCULATE`, `DIVIDE`, `SUM`)
+ **Version Control:** Git
 
----
 
-## System Architecture & Workflow
+
+- System Architecture & Workflow
 
 1. **Data Generation (`src/generate_data.py`)**
    Generates customer accounts with behavioral attributes including order history, spending totals, purchase recency, and support ticket counts.
@@ -30,18 +30,18 @@ A customer churn analysis and risk-scoring pipeline built with Python, SQLite, a
 5. **Power BI Dashboard (`Customer_Churn_Dashboard.pbix`)**
    Connects to the database and utilizes explicit DAX measures to track KPIs, risk distribution, and high-priority accounts for retention outreach.
 
----
 
-## Key Metrics & Findings
 
-- **Total Analyzed Accounts:** 1,000
-- **Overall Churn Rate:** 7.6% (76 churned accounts)
-- **Total Revenue at Risk:** $22,910.95
-- **Primary Churn Indicator:** Support ticket volume ($\ge 3$ tickets correlates with high churn probability)
+- Key Metrics & Findings
 
----
+ **Total Analyzed Accounts:** 1,000
+ **Overall Churn Rate:** 7.6% (76 churned accounts)
+ **Total Revenue at Risk:** $22,910.95
+ **Primary Churn Indicator:** Support ticket volume ($\ge 3$ tickets correlates with high churn probability)
 
-## Repository Structure
+
+
+- Repository Structure
 
 ```text
 ├── data/
